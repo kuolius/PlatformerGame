@@ -1,0 +1,9 @@
+<Mobsdrop>
+
+<drop id="0">
+<item id="7" val="1" chance="10"/>
+<item id="6" val="1" chance="10"/>
+<item id="5" val="1" chance="10"/>
+</drop>
+
+</Mobsdrop>

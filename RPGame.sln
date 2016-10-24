@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGame", "RPGame\RPGame.csproj", "{A1124F7F-A97B-4F7F-A173-0958CFB08EDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1124F7F-A97B-4F7F-A173-0958CFB08EDD}.Debug|x86.ActiveCfg = Debug|x86
+		{A1124F7F-A97B-4F7F-A173-0958CFB08EDD}.Debug|x86.Build.0 = Debug|x86
+		{A1124F7F-A97B-4F7F-A173-0958CFB08EDD}.Release|x86.ActiveCfg = Release|x86
+		{A1124F7F-A97B-4F7F-A173-0958CFB08EDD}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

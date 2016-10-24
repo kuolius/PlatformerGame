@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Skills>
+
+<skill name="dmgSkill" id="0" type="dmg">
+<power>500</power>
+<range>500</range>
+<reuse>180</reuse>
+<fps>9</fps>
+<animationLength>6</animationLength>
+</skill>
+
+<skill name="mPowBuff" id="1" type="buff">
+<range>500</range>
+<reuse>18000</reuse>
+<time>1800</time>
+<add val="1000" stat="mstr"/>
+<animationLength>9</animationLength>
+</skill>
+
+<skill name="mPowBuff" id="2" type="buff">
+<range>500</range>
+<reuse>18000</reuse>
+<time>1800</time>
+<add val="1000" stat="mstr"/>
+<animationLength>9</animationLength>
+</skill>
+
+
+<skill name="heal" id="3" type="heal">
+<range>500</range>
+<reuse>600</reuse>
+<time>0</time>
+<add val="1000" stat="rhp"/>
+<fps>7</fps>
+<animationLength>8</animationLength>
+</skill>
+
+<skill name="mass" id="4" type="mass">
+<power>200</power>
+<range>200</range>
+<reuse>180</reuse>
+<fps>5</fps>
+<animationLength>10</animationLength>
+</skill>
+
+<skill name="mass" id="5" type="dmg">
+<power>1000</power>
+<range>500</range>
+<reuse>180</reuse>
+<fps>5</fps>
+<animationLength>10</animationLength>
+</skill>
+
+<skill name="IceSkill" id="6" type="dmg">
+<power>500</power>
+<range>500</range>
+<projectile>true</projectile>
+<reuse>180</reuse>
+<fps>10</fps>
+<animationLength>5</animationLength>
+</skill>
+
+</Skills>

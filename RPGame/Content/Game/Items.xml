@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Items>
+
+	<item name="noobSword" type="weapon" id="0" set="">
+		<add val="100" stat="pstr"/>
+		<add val="100" stat="mstr"/>
+		<add val="10" stat="mas"/>
+		<add val="100" stat="hp"/>
+		
+		<stackable>false</stackable>
+		<ranged>false</ranged>
+	</item>
+	
+	<item name="shitSword" type="weapon" id="1" set="">
+		<add val="1000" stat="pstr"/>
+		<add val="1000" stat="mstr"/>
+		<add val="10" stat="mas"/>
+		<add val="10" stat="mc"/>
+		<value>1</value>
+		<stackable>false</stackable>
+		<ranged>false</ranged>
+	</item>
+	
+	<item name="woodenAxe" type="weapon" id="2" set="">
+		<add val="500" stat="pstr"/>
+		<add val="4" stat="mstr"/>
+		
+		<stackable>false</stackable>
+		<ranged>false</ranged>
+	</item>
+	
+	<item name="aresBody" type="body" id="3" set="ares">
+		<add val="10" stat="pdef"/>
+		<add val="10" stat="mdef"/>
+		<add val="100" stat="hp"/>
+		<add val="2" stat="eva"/>
+		
+		<stackable>false</stackable>
+		<ranged>false</ranged>
+	</item>
+	
+	<item name="areshelm" type="helm" id="4" set="ares">
+		<add val="10" stat="pdef"/>
+		<add val="10" stat="mdef"/>
+		<add val="100" stat="hp"/>
+		<add val="2" stat="eva"/>
+		
+		<stackable>false</stackable>
+		<ranged>false</ranged>
+	</item>
+	
+	<item name="aresLegs" type="legs" id="5" set="ares">
+		<add val="10" stat="pdef"/>
+		<add val="10" stat="mdef"/>
+		<add val="100" stat="hp"/>
+		<add val="2" stat="eva"/>
+		
+		<stackable>false</stackable>
+		<ranged>false</ranged>
+	</item>
+	
+	<item name="aresGloves" type="gloves" id="6" set="ares">
+		<add val="10" stat="pdef"/>
+		<add val="10" stat="mdef"/>
+		<add val="100" stat="hp"/>
+		<add val="2" stat="eva"/>
+		
+		<stackable>false</stackable>
+		<ranged>false</ranged>
+	</item>
+	
+	<item name="aresBoots" type="boots" id="7" set="ares">
+		<add val="10" stat="pdef"/>
+		<add val="10" stat="mdef"/>
+		<add val="100" stat="hp"/>
+		<add val="2" stat="eva"/>
+		
+		<stackable>false</stackable>
+		<ranged>false</ranged>
+	</item>
+	
+	<item name="crusaderBow" type="bow" id="8" set="crusader">
+		
+		<add val="1000" stat="pstr"/>
+		<add val="30" stat="pas"/>
+		<add val="40" stat="pc"/>
+		<add val="500" stat="attackRange"/>
+		
+		<stackable>false</stackable>
+		<ranged>true</ranged>
+	</item>
+	
+	<item name="gold" type="gold" id="9" set="">
+		
+		<stackable>true</stackable>
+		
+	</item>
+
+</Items>

@@ -1,0 +1,33 @@
+
+<Mobs>
+
+<Mob name="Zombie" id="0">
+<coords X="1000" Y="999"/>
+<respawnTime>20</respawnTime>
+<xp>100</xp>
+<maxHp>10000</maxHp>
+<hp>10000</hp>
+<lvl>1</lvl>
+<physPow>100</physPow>
+<physDef>100</physDef>
+<mPow>100</mPow>
+<mDef>100</mDef>
+<mp>100</mp>
+<maxMp>100</maxMp>
+<pas>10</pas>
+<mas>10</mas>
+<pc>10</pc>
+<mc>10</mc>
+<eva>10</eva>
+<acc>10</acc>
+<hpRegen>10</hpRegen>
+<mpRegen>10</mpRegen>
+<fPen>50</fPen>
+<pen>50</pen>
+<attackRange>30</attackRange>
+<drop id="7" val="1" chance="50" from="10000"/>
+<drop id="6" val="1" chance="50" from="1000"/>
+<drop id="9" val="100" chance="90" from="100"/>
+</Mob>
+
+</Mobs>
