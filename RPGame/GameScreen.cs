@@ -402,7 +402,7 @@ namespace RPGame
                 mob.spawned = true;
 
             }
-            // SpawnAllMobs();
+             SpawnAllMobs();
 
 
 

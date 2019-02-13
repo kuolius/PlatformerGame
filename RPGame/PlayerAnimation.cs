@@ -147,13 +147,13 @@ namespace RPGame
                 if (playerState[2] == 1)
                 {
                     if (playerState[3] + playerState[1] + playerState[0] == 0)
-                        animationIndex = ((animationIndex + 1) % 14);
+                        animationIndex = ((animationIndex + 1) % 7);
                     spriteEffect = SpriteEffects.None;
                 }
                 if (playerState[3] == 1 )
                 {
                     if(playerState[2] + playerState[1] + playerState[0] == 0)
-                        animationIndex = ((animationIndex + 1) % 14);
+                        animationIndex = ((animationIndex + 1) % 7);
                     spriteEffect = SpriteEffects.FlipHorizontally;
                 }
 
@@ -412,27 +412,27 @@ namespace RPGame
 
                 if (playerState[2] == 0 && playerState[3] == 0 && playerState[0] == 0 && playerState[1] == 0)
                 {
-                    playerAnimation(0, 0, 100, 100);
+                    playerAnimation(0, 0, 32, 64);
                 }
                 else if (playerState[0] == 1)
                 {
-                    //playerAnimation(8 * 32, 0, 32, 64);
-                    playerAnimation(0, 0, 100, 100);
+                    playerAnimation(8 * 32, 0, 32, 64);
+                   // playerAnimation(0, 0, 100, 100);
                 }
                 else if (playerState[1] == 1)
                 {
-                    // playerAnimation(9 * 32, 0, 32, 64);
-                    playerAnimation(0, 0, 100, 100);
+                     playerAnimation(9 * 32, 0, 32, 64);
+                    //playerAnimation(0, 0, 100, 100);
                 }
                 else if (playerState[2] == 1)
                 {
-                    //playerAnimation((animationIndex ) * 32, 0, 32, 64);
-                    playerAnimation(0, 0, 100, 100);
+                    playerAnimation((animationIndex ) * 32, 0, 32, 64);
+                    //playerAnimation(0, 0, 100, 100);
                 }
                 else if (playerState[3] == 1)
                 {
-                    // playerAnimation((animationIndex ) * 32, 0, 32, 64);
-                    playerAnimation(0, 0, 100, 100);
+                    playerAnimation((animationIndex ) * 32, 0, 32, 64);
+                   // playerAnimation(0, 0, 100, 100);
                 }
 
 
