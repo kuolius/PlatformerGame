@@ -115,8 +115,8 @@ namespace RPGame
             fallingSpeed = 0;
             jumpingSpeed = playerStats.jumpingHeight;
             fell = false;
-            rightCorrect = 37;
-            leftCorrect = 41;
+            rightCorrect = 0;
+            leftCorrect = 0;
             direction = 1;
             attIndex = 0;
             respawnTime = 10;
